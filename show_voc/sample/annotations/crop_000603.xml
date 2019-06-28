@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>part1_100</folder>
+<filename>crop_000603.png</filename>
+<path>E:\DataSet\INRIAPerson\part1_100\crop_000603.png</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>362</width>
+    <height>720</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>102</xmin>
+        <ymin>45</ymin>
+        <xmax>249</xmax>
+        <ymax>237</ymax>
+    </bndbox>
+</object>
+</annotation>
