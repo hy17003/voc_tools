@@ -141,7 +141,7 @@ class Annotation:
             x1 = max(x1, 0)
             y1 = max(y1, 0)
             x2 = min(x2, self.width - 1)
-            y2 = max(y2, self.height - 1)
+            y2 = min(y2, self.height - 1)
 
             if (x2 - x1) * (y2 - y1) < 900:
                 continue

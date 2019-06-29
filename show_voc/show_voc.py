@@ -1,12 +1,13 @@
 import os
 import cv2
+
 try:
     import xml.etree.cElementTree as ET
 except ImportError:
     import xml.etree.ElementTree as ET
 
-annotation_dir = 'sample/annotations'
-image_dir = 'sample/images'
+annotation_dir = '/home/hy17003/data/upper_body/annotations'
+image_dir = '/home/hy17003/data/upper_body/images'
 
 def GetAnnotBoxLoc(AnotPath):
     Context = {}
@@ -49,7 +50,9 @@ for anntation_file in annotation_list:
             cv2.rectangle(image, p1, p2, (0, 255, 0), 2)
             cv2.putText(image, key, p3, cv2.FONT_HERSHEY_COMPLEX, 1.0, (0, 0, 255), 2)
     cv2.imshow('image', image)
-    cv2.waitKey(0)
+    key = cv2.waitKey(0)
+    if key == 27:
+        break
 
 
 print("finish!")
