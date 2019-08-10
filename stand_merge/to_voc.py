@@ -16,7 +16,7 @@ class Annotation:
         self.height = 0
         self.depth = 0
         self.objs = []
-        self.classmap = ['background', 'face', 'hand']
+        self.classmap = ['background', 'face', 'cup', 'hand']
 
     def read(self, filepath):
         if os.path.isfile(filepath):
@@ -40,7 +40,7 @@ class Annotation:
                     self.objs.append(obj)
 
 
-root_dir = '/media/hy17003/C022AA4B225A6D42/data/hand_dataset/hand_all/hand_face_dataset/VOCdevkit/VOC2007'
+root_dir = './VOCdevkit/VOC2007'
 annotations_dir = root_dir + '/Annotations'
 imagesets_dir = root_dir + '/ImageSets'
 jpegimages_dir = root_dir + '/JPEGImages'
@@ -50,6 +50,8 @@ dct = ['hand']
 label_list = os.listdir(src_dir)
 file_count = 0
 for i in range(0, len(label_list)):
+    if label_list[i] == 'dict.txt':
+        continue
     path = os.path.join(src_dir, label_list[i])
     if os.path.isfile(path):
         #read label
