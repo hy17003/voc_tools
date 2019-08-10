@@ -6,9 +6,11 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET
 
-annotation_dir = '/home/hy17003/data/upper_body/annotations'
-image_dir = '/home/hy17003/data/upper_body/images'
-
+annotation_dir = './sample/annotations'
+image_dir = './sample/images'
+color_table = [(0, 0, 255), (0, 255, 0), (0, 255, 255), (255, 0, 0), (255, 0, 255), (255, 255, 0), (255, 255, 255)]
+color_dict = {}
+idx = 0
 def GetAnnotBoxLoc(AnotPath):
     Context = {}
     tree = ET.ElementTree(file=AnotPath)
@@ -42,13 +44,17 @@ for anntation_file in annotation_list:
     image_path = os.path.join(image_dir, filename)
     image = cv2.imread(image_path)
     for key, boxes in info['objects'].items():
+        if key not in color_dict.keys():
+            idx = idx + 1
+            idx = idx % len(color_table)
+            color_dict[key] = color_table[idx]
         count = len(boxes)
         for box in boxes:
             p1 = (box[0], box[1])
             p2 = (box[2], box[3])
             p3 = (box[0] + 5, box[1] + 15)
-            cv2.rectangle(image, p1, p2, (0, 255, 0), 2)
-            cv2.putText(image, key, p3, cv2.FONT_HERSHEY_COMPLEX, 1.0, (0, 0, 255), 2)
+            cv2.rectangle(image, p1, p2, color_dict[key], 1)
+            cv2.putText(image, key, p3, cv2.FONT_HERSHEY_COMPLEX, 1.0, color_dict[key], 1)
     cv2.imshow('image', image)
     key = cv2.waitKey(0)
     if key == 27:

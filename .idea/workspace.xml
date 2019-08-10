@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91116492-25d3-48a7-a066-588053094276" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/voc_enhance/enhance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/voc_tools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/voc_tools.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/annotations/crop_000010.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/annotations/crop_000011.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/annotations/crop_000603.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/annotations/crop_000606.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/annotations/crop_000607.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/annotations/crop_000608.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/images/crop_000010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/images/crop_000011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/images/crop_000603.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/images/crop_000606.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/images/crop_000607.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/show_voc/sample/images/crop_000608.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/show_voc/show_voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/show_voc/show_voc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voc_check/Annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_check/Annotation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voc_check/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/voc_check/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voc_check/voc_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_check/voc_check.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +27,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voc_check/Annotation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state>
               <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -30,8 +43,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/show_voc/show_voc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="611">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voc_enhance/enhance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -42,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/voc_check/voc_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
+            <state relative-caret-position="672">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -53,6 +78,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,31 +94,24 @@
         <option value="$PROJECT_DIR$/voc_check/readme.md" />
         <option value="$PROJECT_DIR$/voc_check/Annotation.py" />
         <option value="$PROJECT_DIR$/voc_check/voc_check.py" />
+        <option value="$PROJECT_DIR$/stand_merge/merge_annotation.py" />
+        <option value="$PROJECT_DIR$/voc_enhance/enhance.py" />
         <option value="$PROJECT_DIR$/show_voc/show_voc.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/voc_tools.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="358" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="158" />
+    <option name="y" value="479" />
     <option name="width" value="1849" />
-    <option name="height" value="1053" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,20 +127,31 @@
             <path>
               <item name="voc_tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="voc_tools" type="462c0819:PsiDirectoryNode" />
-              <item name="voc_check" type="462c0819:PsiDirectoryNode" />
+              <item name="show_voc" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="voc_tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="voc_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="show_voc" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="voc_tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="voc_tools" type="462c0819:PsiDirectoryNode" />
+              <item name="show_voc" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -131,7 +167,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.split_dataset">
+  <component name="RunManager" selected="Python.show_voc">
+    <configuration name="merge_annotation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="voc_tools" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stand_merge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stand_merge/merge_annotation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="show_voc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="voc_tools" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,8 +254,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.split_dataset" />
         <item itemvalue="Python.show_voc" />
+        <item itemvalue="Python.merge_annotation" />
+        <item itemvalue="Python.split_dataset" />
         <item itemvalue="Python.voc_check" />
       </list>
     </recent_temporary>
@@ -220,24 +278,35 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19769357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32980973" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/show_voc/show_voc.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/voc_check/readme.md">
@@ -252,7 +321,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voc_check/Annotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state>
           <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -262,7 +331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/voc_check/voc_check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
+        <state relative-caret-position="672">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -270,10 +339,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stand_merge/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stand_merge/merge_annotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voc_enhance/enhance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_voc/sample/annotations/crop_000606.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_voc/sample/annotations/crop_000603.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_voc/sample/annotations/crop_000011.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/show_voc/sample/annotations/crop_000010.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/show_voc/show_voc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        <state relative-caret-position="611">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
