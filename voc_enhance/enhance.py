@@ -3,11 +3,15 @@ import cv2
 #from Annotation import *
 from voc_enhance.Annotation import *
 
-input_image_folder = './sample/src_image'
-input_annotation_foler = './sample/src_annotations'
-output_image_folder = './sample/dst_image'
-output_annotation_foler = './sample/dst_annotations'
+# input_image_folder = './sample/src_image'
+# input_annotation_foler = './sample/src_annotations'
+# output_image_folder = './sample/dst_image'
+# output_annotation_foler = './sample/dst_annotations'
 
+input_image_folder = 'E:/DataSet/hand_face/other_image/hand_face/image'
+input_annotation_foler = 'E:/DataSet/hand_face/other_image/hand_face/annotaion'
+output_image_folder = 'E:/DataSet/hand_face/other_image/hand_face_flip/image'
+output_annotation_foler = 'E:/DataSet/hand_face/other_image/hand_face_flip/annotaion'
 
 def flip(input_annotation, input_image):
     output_annotation = Annotation()

@@ -12,8 +12,14 @@ except ImportError:
 # annotation_dir = 'E:/DataSet/hand_face/annotation'
 # image_dir = 'E:/DataSet/hand_face/image'
 
-annotation_dir = '../voc_enhance/sample/dst_annotations'
-image_dir = '../voc_enhance/sample/dst_image'
+# annotation_dir = '../voc_enhance/sample/dst_annotations'
+# image_dir = '../voc_enhance/sample/dst_image'
+
+# image_dir = 'E:/DataSet/hand_face/other_image/image'
+# annotation_dir = 'E:/DataSet/hand_face/other_image/hand'
+
+annotation_dir = 'E:/DataSet/hand_face/other_image/hand_face/annotaion'
+image_dir = 'E:/DataSet/hand_face/other_image/hand_face/image'
 
 color_table = [(0, 0, 255), (0, 255, 255), (0, 255, 0), (255, 0, 0), (255, 0, 255), (255, 255, 0), (255, 255, 255)]
 color_dict = {}

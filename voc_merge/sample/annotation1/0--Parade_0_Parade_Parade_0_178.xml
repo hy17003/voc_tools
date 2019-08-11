@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>VOC2007</folder>
+<filename>0--Parade_0_Parade_Parade_0_178.jpg</filename>
+<source>
+  <database>Unknown</database>
+</source>
+<size>
+  <width>1024</width>
+  <height>1024</height>
+  <depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>  <name>hand</name>
+  <pose>Unspecified</pose>
+  <truncated>0</truncated>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>848</xmin>
+    <ymin>571</ymin>
+    <xmax>928</xmax>
+    <ymax>638</ymax>
+  </bndbox>
+</object>
+<object>  <name>hand</name>
+  <pose>Unspecified</pose>
+  <truncated>0</truncated>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>414</xmin>
+    <ymin>633</ymin>
+    <xmax>454</xmax>
+    <ymax>721</ymax>
+  </bndbox>
+</object>
+<object>  <name>hand</name>
+  <pose>Unspecified</pose>
+  <truncated>0</truncated>
+  <difficult>0</difficult>
+  <bndbox>
+    <xmin>86</xmin>
+    <ymin>526</ymin>
+    <xmax>155</xmax>
+    <ymax>580</ymax>
+  </bndbox>
+</object>
+</annotation>
