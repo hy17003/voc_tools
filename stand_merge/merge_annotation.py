@@ -3,7 +3,7 @@ from common import *
 
 '''
 两个文件夹，每个文件夹中应包括标注文件，标注文件名与对应的图像名相同，内容格式如下：
-image_width image_height image_channel
+image_height image_width image_channel
 class_idx min_x min_y max_x max_y
 	.
 	.
@@ -71,11 +71,12 @@ for an in anntoation_sets:
     file_name = an.file_name
     file_path = os.path.join(merge_folder, file_name)
     with open(file_path, 'w') as f:
-        image_info = '{} {} {}\n'.format(an.width, an.height, an.channel)
+        image_info = '{} {} {}\n'.format(an.height, an.width, an.channel)
         f.writelines(image_info)
         for label in an.labels:
             label_info = '{} {} {} {} {}\n'.format(label[0], label[1], label[2], label[3], label[4])
             f.writelines(label_info)
+print('merge finish!')
 
 
 

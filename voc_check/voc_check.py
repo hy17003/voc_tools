@@ -1,12 +1,16 @@
 import os
-import skimage.io
-
+import skimage.io as io
 from Annotation import *
 
-in_anno_dir = '/home/hy17003/data/upper/annotations'
-in_img_dir = '/home/hy17003/data/upper/images'
-out_anno_dir = '/home/hy17003/data/upper_body/annotations'
-out_img_dir = '/home/hy17003/data/upper_body/images'
+'''
+程序的目的是读取voc格式的标注文件，对其超出图像范围的
+标注进行纠正，保存到指定目录
+'''
+
+in_anno_dir = 'E:/DataSet/hand_face/origin_annotation'
+in_img_dir = 'E:/DataSet/hand_face/origin_image'
+out_anno_dir = 'E:/DataSet/hand_face/annotation'
+out_img_dir = 'E:/DataSet/hand_face/image'
 
 
 annotaion_list = os.listdir(in_anno_dir)

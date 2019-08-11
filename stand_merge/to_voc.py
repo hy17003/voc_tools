@@ -1,6 +1,15 @@
 import os, sys
 import numpy as np
 
+'''
+将以下格式的txt标注文件转成VOC：
+image_height image_width image_channel
+class_idx min_x min_y max_x max_y
+	.
+	.
+	.
+'''
+
 class Object:
     def __init__(self):
         self.name = ''
@@ -45,7 +54,7 @@ annotations_dir = root_dir + '/Annotations'
 imagesets_dir = root_dir + '/ImageSets'
 jpegimages_dir = root_dir + '/JPEGImages'
 src_dir = root_dir + '/SRC_LABEL'
-dct = ['hand']
+dct = ['face', 'cup', 'hand']
 
 label_list = os.listdir(src_dir)
 file_count = 0

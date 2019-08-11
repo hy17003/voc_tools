@@ -100,8 +100,8 @@ def read_label_file(file_path, label_dict):
     with open(file_path) as f:
         #read head
         line = f.readline()[:-1]
-        an.width = int(line.split(' ')[0])
-        an.height = int(line.split(' ')[1])
+        an.height = int(line.split(' ')[0])
+        an.width = int(line.split(' ')[1])
         an.channel = int(line.split(' ')[2])
         line = f.readline()
         while line:

@@ -6,9 +6,16 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET
 
-annotation_dir = './sample/annotations'
-image_dir = './sample/images'
-color_table = [(0, 0, 255), (0, 255, 0), (0, 255, 255), (255, 0, 0), (255, 0, 255), (255, 255, 0), (255, 255, 255)]
+# annotation_dir = './sample/annotations'
+# image_dir = './sample/images'
+
+# annotation_dir = 'E:/DataSet/hand_face/annotation'
+# image_dir = 'E:/DataSet/hand_face/image'
+
+annotation_dir = '../voc_enhance/sample/dst_annotations'
+image_dir = '../voc_enhance/sample/dst_image'
+
+color_table = [(0, 0, 255), (0, 255, 255), (0, 255, 0), (255, 0, 0), (255, 0, 255), (255, 255, 0), (255, 255, 255)]
 color_dict = {}
 idx = 0
 def GetAnnotBoxLoc(AnotPath):
