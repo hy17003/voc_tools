@@ -138,13 +138,13 @@ class Annotation:
             x2 = int(BndBox.find('xmax').text)#-1
             y2 = int(BndBox.find('ymax').text)#-1
 
-            x1 = max(x1, 0)
-            y1 = max(y1, 0)
-            x2 = min(x2, self.width - 1)
-            y2 = min(y2, self.height - 1)
+            # x1 = max(x1, 0)
+            # y1 = max(y1, 0)
+            # x2 = min(x2, self.width - 1)
+            # y2 = min(y2, self.height - 1)
 
-            if (x2 - x1) * (y2 - y1) < 900:
-                continue
+            # if (x2 - x1) * (y2 - y1) < 900:
+            #     continue
 
             new_obj = Object()
             new_obj.name = ObjName
@@ -154,4 +154,20 @@ class Annotation:
             new_obj.maxY = y2
             self.objs.append(new_obj)
         return True
+
+    def check(self):
+        for idx in range(len(self.objs)):
+            x1 = self.objs[idx].minX
+            x2 = self.objs[idx].maxX
+            y1 = self.objs[idx].minY
+            y2 = self.objs[idx].maxY
+            x1 = max(x1, 0)
+            y1 = max(y1, 0)
+            x2 = min(x2, self.width - 1)
+            y2 = min(y2, self.height - 1)
+            self.objs[idx].minX = x1
+            self.objs[idx].maxX = x2
+            self.objs[idx].minY = y1
+            self.objs[idx].maxY = y2
+
 

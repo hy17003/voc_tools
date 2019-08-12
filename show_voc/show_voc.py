@@ -18,8 +18,8 @@ except ImportError:
 # image_dir = 'E:/DataSet/hand_face/other_image/image'
 # annotation_dir = 'E:/DataSet/hand_face/other_image/hand'
 
-annotation_dir = 'E:/DataSet/hand_face/other_image/hand_face/annotaion'
-image_dir = 'E:/DataSet/hand_face/other_image/hand_face/image'
+annotation_dir = 'E:/DataSet/VOCdevkit/VOC2007/Annotations'
+image_dir = 'E:/DataSet/VOCdevkit/VOC2007/JPEGImages'
 
 color_table = [(0, 0, 255), (0, 255, 255), (0, 255, 0), (255, 0, 0), (255, 0, 255), (255, 255, 0), (255, 255, 255)]
 color_dict = {}
@@ -30,6 +30,10 @@ def GetAnnotBoxLoc(AnotPath):
     root = tree.getroot()
     ObjectSet=root.findall('object')
     filename = root.find('filename').text
+    size = root.find('size')
+    width = int(size.find('width').text)
+    height = int(size.find('height').text)
+    print('anno -- {} height:{}, width:{}'.format(filename, height, width))
     Context['image_name'] = filename
     Objects = {}
     for Object in ObjectSet:
@@ -56,6 +60,7 @@ for anntation_file in annotation_list:
     filename = info['image_name']
     image_path = os.path.join(image_dir, filename)
     image = cv2.imread(image_path)
+    print('im -- {} height:{}, width:{}, channel:{}'.format(filename, image.shape[0], image.shape[1], image.shape[2]))
     for key, boxes in info['objects'].items():
         if key not in color_dict.keys():
             idx = idx + 1
